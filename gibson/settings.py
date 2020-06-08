@@ -25,7 +25,7 @@ SECRET_KEY = 'x6)b7jy_nfg9@@ds%6ir4rqm)ayr!=wizin7r2vhyv^xy*k^4e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gibsoncheruonlinetaxsolutions.herokuapp.com']
+ALLOWED_HOSTS = ['gibsoncheruonlinetaxsolutions.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
