@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn bizz.wsgi
+web: gunicorn gibson.wsgi
