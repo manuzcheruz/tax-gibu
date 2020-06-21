@@ -14,3 +14,6 @@ def home_page(request):
         form = ContactForm()
 
     return render(request, 'tax/index.html', {'form': form})
+
+def ads(request):
+    return render(request, 'tax/app-ads.txt')
