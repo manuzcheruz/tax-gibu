@@ -17,3 +17,6 @@ def home_page(request):
 
 def ads(request):
     return render(request, 'tax/app-ads.txt')
+
+def privacy_policy(request):
+    return render(request, 'tax/privacy-policy.html')

@@ -5,4 +5,5 @@ from . import views
 urlpatterns = [
     url(r'^$', views.home_page, name="HomePage"),
     url(r'^app-ads.txt$', views.ads, name="ads"),
+    url(r'^privacy-policy$', views.privacy_policy, name="privacy"),
 ]
