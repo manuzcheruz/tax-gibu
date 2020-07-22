@@ -20,3 +20,6 @@ def ads(request):
 
 def privacy_policy(request):
     return render(request, 'tax/privacy-policy.html')
+
+def privacy_policy2(request):
+    return render(request, 'tax/privacy-policy2.html')
